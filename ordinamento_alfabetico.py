@@ -1,3 +1,13 @@
+print ('''
+------ Programma di Ordinamento Alfabetico ------
+*************************************************
+------------- ORDINAMENTO DI PAROLE -------------
+*************************************************
+Questo programma ti chiederà di inserire tre parole
+e le ordinerà in ordine alfabetico.
+
+''')
+
 parola_uno = input("Inserisci la prima parola: ")
 parola_due = input("Ineserisci la seconda parola: ")
 parola_tre = input("Inserisci la terza parola: ")
@@ -30,4 +40,6 @@ if parola_tre <= parola_due and parola_tre <= parola_uno:
         secondo = parola_due
         terzo = parola_uno
 
-print(f"Ordine alfabetico: {primo}, {secondo}, {terzo}")
+print(f'''
+      
+Ordine alfabetico: {primo}, {secondo}, {terzo}''')
